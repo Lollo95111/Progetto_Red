@@ -1,0 +1,215 @@
+*{
+    font-family:'Nova Square', Rajdhani;
+}
+
+
+body{
+    background-color: #ececec;
+}
+
+
+.slide{
+    background-position-y: center;
+    background-position-x: center;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 5%, rgba(255,0,0,0) 100%),url(switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:84vh;
+}
+
+
+
+
+.slide2{
+    position: absolute;
+    height: 100vh;
+    top: 3.3vh;
+}
+.slide2>img{
+    width: 100%;
+}
+
+h1{
+    letter-spacing: 100px;
+    color: darkred;
+    font-size: 150px;
+   }
+   /* @media screen and (max-width: 500px;) {
+    .loolo{
+        color: aliceblue;
+
+    }
+    
+   } */
+
+.citazione{
+    height: 500px;
+}
+
+.border-red{
+    border-bottom: 2px solid darkred;
+      
+}
+
+@media screen and (max-width: 500px){
+
+    .slide{
+    width: 100%;
+    height: 100%;                  
+}
+}
+
+
+    
+
+.border-red::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    position: relative;
+    top: 17px;
+    left: 3px;
+    display: inline-block;
+
+   
+
+}
+
+.prova{
+    height: 700px;
+}
+.card2{
+    position: relative;
+    top: 20vh;
+}
+h3{
+    color: darkred;
+}
+button{
+    background-color: darkred;
+    height: 50px;
+    width: 200px;
+    border: none;
+    position: relative;
+    top: 30vh;
+    color: white;
+    
+}
+.montag{
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url(trees2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+
+h2{
+    color: darkred;
+    font-size: xx-large;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    
+}
+.custom{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style-type: none;
+    
+
+}
+ul{
+   font-size: larger;
+
+}
+.border-custom{
+    border-left: 2px solid darkred;
+}
+.pallino{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid darkred;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    left: -11px;
+    }
+
+   
+
+    .nav-item>a{
+        color: darkgrey !important;
+
+    }
+    .destra{
+        text-align: right;
+    }
+    .icondark{
+        letter-spacing: 10px;
+        color: darkred;
+        font-size: large;
+    }
+    
+    .custom2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid darkred;
+    padding: 10px;
+    
+    }
+    /* h4{
+        color: white;
+    } */
+    .fot{
+        color: white;
+        margin-top: 120px;
+        margin-left: 120px;
+    }
+    .fot2{
+        color: white;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    .fot2>h2{
+        color: white;
+    }
+    .fotdiv{
+        height: 330px;
+    }
+    .mumu{
+        /* margin-left: 300px; */
+        width: 900px;
+        height: 600px;
+    }
+   .lollo{
+   background-color: darkred;
+   }
+   .othe{
+    position: absolute;
+    bottom: 20vh;
+   }

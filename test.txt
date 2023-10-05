@@ -1,0 +1,5 @@
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Urbanist', sans-serif;
+font-family: 'Ysabeau Infant', sans-serif;
